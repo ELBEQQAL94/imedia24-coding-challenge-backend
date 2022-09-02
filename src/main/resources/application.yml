@@ -6,7 +6,7 @@ spring:
       repositories:
         bootstrap-mode: deferred
   datasource:
-    url: jdbc:h2:mem:testdb
+    url: jdbc:h2:tcp://localhost:1521/default
     username: sa
     password: password
     driver-class-name: org.h2.Driver
